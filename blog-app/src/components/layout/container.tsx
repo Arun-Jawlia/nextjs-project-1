@@ -5,7 +5,7 @@ interface ContainerProps { children: React.ReactNode; className?: string; }
 
 const container = ({ children, className }: ContainerProps) => {
     return (
-        <div className={cn('container mx-4 px-4', className)}>
+        <div className={cn('container', className)}>
             {children}
         </div>
     )
